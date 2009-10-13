@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcUserGroupTour", "MvcUserGroupTour\MvcUserGroupTour.csproj", "{AE89D32D-5593-480E-AF15-680EA546FDF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcUserGroupTour.Tests", "MvcUserGroupTour.Tests\MvcUserGroupTour.Tests.csproj", "{074E6B45-BE95-4FDA-89AE-27E8CEC1E110}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE89D32D-5593-480E-AF15-680EA546FDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE89D32D-5593-480E-AF15-680EA546FDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE89D32D-5593-480E-AF15-680EA546FDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE89D32D-5593-480E-AF15-680EA546FDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074E6B45-BE95-4FDA-89AE-27E8CEC1E110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074E6B45-BE95-4FDA-89AE-27E8CEC1E110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074E6B45-BE95-4FDA-89AE-27E8CEC1E110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074E6B45-BE95-4FDA-89AE-27E8CEC1E110}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

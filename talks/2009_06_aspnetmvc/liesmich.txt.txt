@@ -1,0 +1,28 @@
+
+
+Dies ist das kleine Beispiel welches ich auf der ASP.NET MVC UserGroup Tour im LiveCoding gezeigt hatte.
+
+Ich musste natürlich hier und da während dem Vortrag vereinfachen.
+
+In diesem Beispiel habe ich das eine oder andere nochmal auscodiert und "ordentlich" aufgeteilt.
+
+So macht der Controller nur noch vermittelnde Tätigkeiten und hat kaum logik drin.
+
+In den View
+
+Ich habe den Castle Windsor IoC Container eingebaut und eine entsprechende Controller Factory erstellt.
+
+Jedoch sollte in "echten" Anwendungen die Varianten aus http://mvccontrib.org verwendet werden.
+
+Da ja Controller Test bei MVC Mitgeliefert werden habe ich mich auf die Tests von ActionFiltern beschränkt.
+
+Das Beispiel braucht eine Northwind-Datenbank sowie Standard-ASP.NET Membership Datenbank.
+
+Die Verwendung von {culture} in der Route wird nun auch entsprechend bei der Thread Culture berücksichtigt,
+dafür gibt es einen entsprechenden ActionFilter. Sowie eine Sprachwahl (wirkt sich nur auf Datum und Zahlen aus)
+in die MasterPage eingebaut.
+
+Viel Spaß und Danke an die Teilnehmer der ASP.NET User Group Tour im Juni 2009 nach Karlsruhe, Ulm, Konstanz, Ingolstadt und Nürnberg.
+
+
+Albert Weinert
