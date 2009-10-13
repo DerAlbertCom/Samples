@@ -1,1 +1,1 @@
-README 
+Hier werden in Zukunft einiges an Sample-Code abgelegt werden
